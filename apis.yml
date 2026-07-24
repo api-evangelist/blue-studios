@@ -1,7 +1,13 @@
 aid: blue-studios
 name: Blue Studios
-description: Blue Studios is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Blue Studios Labs is a family-focused technology company operating under the tagline "Where
+  Families Flourish." It builds consumer digital products that help couples and families explore, learn,
+  and grow together. Its portfolio includes Wallio, a shared financial-management app for couples and
+  families; Blue Studios EDU, an entertainment-based educational streaming service; and Blue Studios
+  Entertainment, a media-production studio creating family-oriented narratives and content. The company
+  reports more than 400 million digital views, 350,000 game plays, and 4,000+ classes delivered. Blue
+  Studios is a Techstars portfolio company. As of this profile it publishes no public API, developer
+  portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/blue-studios/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +15,31 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/662b21566777537ca03f2369/662c43c6c197518b9c38c618_Blue%20Studios%20Labs%20Logo%20White.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Consumer
+- Family Tech
+- Personal Finance
+- FinTech
+- EdTech
+- Streaming
+- Media and Entertainment
+- Techstars
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/blue-studios-domain-security.yml
 - type: Website
   url: https://bluestudios.io/
+- type: Support
+  url: https://form.typeform.com/to/OPDR0HS5
+- type: Twitter
+  url: https://twitter.com/BlueStudios_io
+- type: Instagram
+  url: https://www.instagram.com/bluestudios_io/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
